@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	setlocale(0, "");
+	int year;
+	cout << "Введите год: ";
+	cin >> year;
+
+	if (year % 100 == 0) {
+		cout << year << " - вековой год" << endl;
+	}
+	else {
+		cout << year << " - невековой год." << endl;
+	}
+
+	return 0;
+}
